@@ -1,10 +1,13 @@
     function skillMember() {
-        // Generate a random number between 0 and 1
-        const randomNumber = Math.random();
-
-        // Do something with the random number
-        // ...
-
-        // Return the result
-        return randomNumber;
+        var member = document.getElementById("member");
+        var skill = document.getElementById("skill");
+        var project = document.getElementById("project");
+        var contact = document.getElementById("contact");
+        var about = document.getElementById("about");
+        member.style.display = "block";
+        skill.style.display = "none";
+        project.style.display = "none";
+        contact.style.display = "none";
+        about.style.display = "none";
+      
     }
